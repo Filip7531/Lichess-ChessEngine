@@ -108,9 +108,9 @@ void generatePawnMoves(const Pos &pos, bool white, vector<Move> &moves) {
                       : (pos.white.Pawn|pos.white.Rook|pos.white.Knight|
                          pos.white.Bishop|pos.white.Queen|pos.white.King);
 
-    int dr = white ? -1 : 1;
-    int promoRank = white ? 0 : 7;
-    int startRank = white ? 6 : 1;
+    int dr = white ? 1 : -1;
+    int promoRank = white ? 7 : 0;
+    int startRank = white ? 1 : 6;
 
     for(int rank=0; rank<8; rank++) {
         for(int file=0; file<8; file++) {
