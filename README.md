@@ -1,4 +1,4 @@
-# Lichess-ChessEngine
+# ChessEngine
 Simple chess engine written in C++.
 
 ## File overview
