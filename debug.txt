@@ -1,0 +1,6 @@
+MOVE = 1 6 0 1 5
+MOVE = 1 6 0 1 5
+MOVE = 2 1 0 2 3
+MOVE = 2 1 0 2 3
+MOVE = 3 1 0 3 3 = d7d5
+MOVE = 3 1 0 3 3 = d7d5
